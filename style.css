@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+body,html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+
+    height: 100vh;
+    background-color: rgb(44, 38, 38);
+}
+
+.container {
+    text-align: center;
+    color: rgb(44, 38, 38);
+    background-color: orangered;
+    width: 80%;
+    margin: 100px auto;
+    height: 600px;
+    border-radius: 4px;
+    padding: 32px;
+}
+
+.frame {
+    border: 2px solid rgb(44, 38, 38);
+    height: 100%;
+}
